@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="45 15 310 310" width="310" height="310">
+  <defs>
+    <radialGradient id="p2" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#8FE3FF"/><stop offset=".5" stop-color="#5B7CFF"/><stop offset="1" stop-color="#3A1E8C"/>
+    </radialGradient>
+    <clipPath id="c2"><circle cx="200" cy="165" r="82"/></clipPath>
+  </defs>
+  <g transform="rotate(-16 200 165)">
+    <path d="M 62 165 A 138 32 0 0 1 338 165" fill="none" stroke="#FFB020" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <circle cx="200" cy="165" r="82" fill="url(#p2)"/>
+  <g clip-path="url(#c2)" fill="none" stroke-linecap="round" opacity=".55">
+    <path d="M 110 130 Q 150 118 190 130 T 290 128" stroke="#C9F1FF" stroke-width="10"/>
+    <path d="M 110 175 Q 160 162 205 176 T 295 172" stroke="#FF8FB1" stroke-width="12"/>
+    <path d="M 110 215 Q 150 205 195 216 T 290 212" stroke="#C9F1FF" stroke-width="7"/>
+  </g>
+  <g transform="rotate(-16 200 165)">
+    <path d="M 338 165 A 138 32 0 0 1 62 165" fill="none" stroke="#FFB020" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <circle cx="318" cy="66" r="13" fill="#FF8FB1"/>
+  <path d="M 86 58 l 5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 z" fill="#FFB020"/>
+  <path d="M 330 250 l 3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z" fill="#FFB020"/>
+  <circle cx="70" cy="240" r="4" fill="#FFB020"/>
+  </svg>
